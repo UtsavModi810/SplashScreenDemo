@@ -57,6 +57,7 @@ const App = () => {
   useEffect(() => {
     SplashScreen.hide();
   }, [])
+  console.log('Hello')
   const isDarkMode = useColorScheme() === 'dark';
 
   const backgroundStyle = {
